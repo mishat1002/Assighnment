@@ -84,10 +84,11 @@ body
 { 
     height: 600px;
     width: 1320px;
-    position: relative;
+    
     background-repeat: no-repeat;
     background-image: linear-gradient(to bottom,rgba(0,0,0,0.5), rgba(0,0,0,0)),url('../images/Vectorrr.png');
-    margin: 50px 150px 0px 90px;
+   margin: 50px 150px 0px 90px;
+    display: flex;
    
     
  }
@@ -99,8 +100,8 @@ body
 { 
     text-align:left ;
     float: left;
-    margin: 126px 560px 0px 126px;
-    
+    margin-left: 100px;
+   
     
    
 }
@@ -134,13 +135,7 @@ body
    
     
 }
-.theird-image
-{
-    display: block;
-    
 
-    
-}
 .main-section
 {
     width: 1320px; 
@@ -189,8 +184,129 @@ body
     font-weight: 700;
     padding: 15px 35px;
 }
-.third-img
+.second-main
 {
- float: right;
-} 
+    margin-left: 100px;
+    margin-right: 160px;
+}
+
+.main-main
+{
+    display: flex;
+}
+#center
+{
+    align: center;
+    margin-left: auto;
+    margin-right: auto;
+  
+    
+}
+.fourth-main
+{
+    
+    width: 50%; 
+    height: 500%; 
+    border-radius: 250px; 
+    border: 10px #FF0000 solid;
+    padding: 20px 20px;
+    display: inline-block;
+    align-items: center;
+    
+}
+.new
+{
+   color: #FF0000; 
+}
+.headline
+{
+    margin-left: 20px;
+    color: #FF0000;
+}
+.description
+{
+    margin-left: 20px;
+    margin-right: 60px;
+}
+.new-headline
+{
+    text-align: center;
+    margin-top: 10%;
+   
+}
+.holiday
+{
+    color: #FF0000;
+}
+.new-descript
+{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.fifth-img
+{
+    width: 100%; 
+    height: 100%; 
+    border-top-left-radius: 16px; 
+    border-top-right-radius: 16px;
+    margin-left: 61.45vw;
+
+}
+.red{
+    display: block;
+    margin-left: 8vw;
+    margin-right: 30vw;
+    margin-top: -0.1vw;
+   
+    position: absolute;
+
+}
+.percent
+{    
+    margin-top: -20vw;
+    margin-right: 60vw;
+    margin-left: -11vw;
+}
+.box
+{
+    margin-top: -20vw;
+    position: sticky;
+}
+.another-title
+{
+    color: #FF0000;
+}
+.another
+{
+    margin-left: 100px;
+    margin-right: 160px;
+}
+.best-description
+{
+    margin-right: 50%;
+}
+.many
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.many img{
+    width: 400px;
+    height: 300px;
+    border: 2px solid #ff3d;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px;
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+    
+   
+}
+.many img:hover
+{
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
 
