@@ -38,7 +38,8 @@ body
     color: white;
     font-size: 32px;
     font-weight: 400;
-    margin: 0px 0px;  
+    margin: 0px 0px;
+   
   
 }
 .second-title
@@ -187,7 +188,7 @@ body
 .second-main
 {
     margin-left: 100px;
-    margin-right: 160px;
+    margin-right: 100px;
 }
 
 .main-main
@@ -242,6 +243,8 @@ body
 {
     margin-left: 20%;
     margin-right: 20%;
+    margin-bottom: 50px;
+   
 }
 .fifth-img
 {
@@ -249,28 +252,35 @@ body
     height: 100%; 
     border-top-left-radius: 16px; 
     border-top-right-radius: 16px;
-    margin-left: 61.45vw;
-
+    margin-left: 68.60vw;
+    margin-right: -50vw;
+    margin-bottom: -0.99vw;
+    
 }
 .red{
     display: block;
-    margin-left: 8vw;
-    margin-right: 30vw;
+    margin-left: 9vw;
+    margin-right: 60vw;
     margin-top: -0.1vw;
    
     position: absolute;
+    z-index: 1;
 
 }
 .percent
 {    
-    margin-top: -20vw;
+    margin-top: -21vw;
     margin-right: 60vw;
     margin-left: -11vw;
 }
 .box
 {
-    margin-top: -20vw;
-    position: sticky;
+    height: 350px;
+    width: 400px;
+    margin-top: -30vw;
+    position: absolute;
+    z-index: 2;
+
 }
 .another-title
 {
@@ -280,6 +290,7 @@ body
 {
     margin-left: 100px;
     margin-right: 160px;
+    margin-top: 360px;
 }
 .best-description
 {
@@ -314,7 +325,7 @@ body
 {
     width: 1320px; 
     height: 420px; 
-    background:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0) 100%); 
+    background:rgba(255, 0, 0, 0.05); 
     border-radius: 16px;
    
     text-align: center;
@@ -331,12 +342,38 @@ body
     line-height: 32px;
    
 }
-.content
+input
 {
-    width: 100%;
+   /* width: 100%;
     height: 100%;
     border-radius: 50px;
-    padding: 20px 20px;
+    padding: 20px 20px;*/
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+
+}
+input[type="email"]
+{
+    width: 340px;
+    height: 50px;
+    border: none;
+    padding: 0px 25px;
+    border-radius: 25px 0px 0px 25px;
+}
+input[type="submit"]
+{
+    position: relative;
+    border-radius: 0px 25px 25px 0px;
+    left: -5px;
+    width: 240px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #FF0000;
+    color: white;
 
 }
 .sub
@@ -372,21 +409,27 @@ body
 .white
 {
     color: white;
-
+    text-align: left;
     margin-top: 50px;
     margin-left: 20px;
+    margin-right: 0px;
+   
 }
 .cell
 {
     color: white;
     margin-top: 50px;
-    margin-right: 120px;
+    margin-bottom: 0px;
+    
+    
 }
 
 .horizontal
 {
     margin-right: 50px;
     margin-left: 20px;
+    margin-top: 0px;
+    
    
 }
 .social
