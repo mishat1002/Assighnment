@@ -94,28 +94,22 @@ body
     
  }
 
-   
-
-
 .title
 { 
     text-align:left ;
     float: left;
-    margin-left: 100px;
-   
-    
-   
+    margin-left: 100px;  
 }
 .title-header
 {
     color: white;
     font-size: 64px;
-   
+    width: 642px;
+    height: 172px;
     font-weight: 900;
     letter-spacing: 7.04px;
-    
-
-   
+    width: 697px;
+    height: 160px;  
 }
 .title-description
 {
@@ -376,14 +370,7 @@ input[type="submit"]
     color: white;
 
 }
-.sub
-{
-   
-    height: 100%;
-    background: #FF0000; 
-   
-    
-}
+
 .full
 {
     background-color: black; 
